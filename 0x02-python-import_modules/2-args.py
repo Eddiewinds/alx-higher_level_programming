@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 
-if _name_ == "_main_":
-    import sys
+import sys
+
+if __name__ == "__main__":
+
     i = len(sys.argv) - 1
 
     if i == 0:
